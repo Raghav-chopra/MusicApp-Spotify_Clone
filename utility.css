@@ -1,0 +1,48 @@
+.border{
+    border: 2px solid rgb(53, 50, 50);
+    margin: 3px
+}
+.flex{
+    display: flex;
+}
+.justify_content{
+    justify-content: center;
+}
+.items-align{
+    align-items: center;
+}
+.border_r{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 8px;
+    
+}
+/* Slimmer Scrollbar for Dark Theme Websites, without arrows */
+
+/* For Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px; /* Slimmer width for a minimalistic look */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2E2E2E; /* Dark track, fitting the theme */
+    border-radius: 4px; /* Slightly rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark thumb for contrast */
+    border-radius: 4px; /* Rounded corners for the thumb */
+    transition: background 0.2s ease-in-out; /* Smooth transition for interactive feedback */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #787878; /* Lighter thumb on hover for visual feedback */
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-width: thin; /* Slimmer scrollbar */
+    scrollbar-color: #555 #2E2E2E; /* Thumb and track color */
+  }  
+  
